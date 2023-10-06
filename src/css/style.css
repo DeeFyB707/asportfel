@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: kolkheti;
+    src: url(../fonts/ka-kolheti-webfont.ttf);
+}
+
+
+
+
+/* NAV-Bar */
+
+
+nav {
+    background-color: #0f1c2d;
+}
+
+.navLinks {
+    position: relative;
+    font-family: kolkheti;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #9CA3AC;
+    text-decoration: none;
+}
+
+.navLinks::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #F9DD4C;
+    box-shadow: 0px 5px 5px 0px rgba(249,221,76,0.84);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(249,221,76,0.84);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(249,221,76,0.84);
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0%;
+    background-color: #B62F64;
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks:hover {
+    color: #B62F64;
+}
+
+.navLinks:hover::after {
+    width: 91.5%;
+}
+
+.navLinks:hover::before {
+    height: 70%;
+}
+
+.navLinks2 {
+    position: relative;
+    font-family: kolkheti;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #9CA3AC;
+    text-decoration: none;
+}
+
+.navLinks2::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #B62F64;
+    box-shadow: 0px 5px 5px 0px rgba(182,47,100,0.84);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(182,47,100,0.84);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(182,47,100,0.84);
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks2::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0%;
+    background-color: #F9DD4C;
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks2:hover {
+    color: #F9DD4C;
+}
+
+.navLinks2:hover::after {
+    width: 94%;
+}
+
+.navLinks2:hover::before {
+    height: 70%;
+}
+
+.navLinks3 {
+    position: relative;
+    font-family: kolkheti;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #9CA3AC;
+    text-decoration: none;
+}
+
+.navLinks3::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #F9DD4C;
+    box-shadow: 0px 5px 5px 0px rgba(249,221,76,0.84);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(249,221,76,0.84);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(249,221,76,0.84);
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks3::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0%;
+    background-color: #B62F64;
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks3:hover {
+    color: #B62F64;
+}
+
+.navLinks3:hover::after {
+    width: 96%;
+}
+
+.navLinks3:hover::before {
+    height: 70%;
+}
+
+.navLinks4 {
+    position: relative;
+    font-family: kolkheti;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #9CA3AC;
+    text-decoration: none;
+}
+
+.navLinks4::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #B62F64;
+    box-shadow: 0px 5px 5px 0px rgba(182,47,100,0.84);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(182,47,100,0.84);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(182,47,100,0.84);
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks4::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0%;
+    background-color: #F9DD4C;
+    border: none;
+    border-radius: 12px;
+    transition: all .4s;
+}
+
+.navLinks4:hover {
+    color: #F9DD4C;
+}
+
+.navLinks4:hover::after {
+    width: 93%;
+}
+
+.navLinks4:hover::before {
+    height: 70%;
+}
