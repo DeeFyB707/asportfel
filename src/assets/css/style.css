@@ -17,6 +17,11 @@ body {
     src: url(../fonts/alk-life-webfont.ttf);
 }
 
+@font-face {
+    font-family: Averta;
+    src: url(../fonts/AvertaDemo-Regular.otf);
+}
+
 
 
 
@@ -45,7 +50,7 @@ nav {
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #9CA3AC;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -82,6 +87,10 @@ nav {
     color: #530BF5;
 }
 
+.navLinks:focus {
+    color: #530BF5 !important;
+}
+
 .navLinks:hover::after {
     width: 91.5%;
 }
@@ -96,7 +105,7 @@ nav {
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #9CA3AC;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -133,6 +142,10 @@ nav {
     color: #F9DD4C;
 }
 
+.navLinks2:focus {
+    color: #F9DD4C !important;
+}
+
 .navLinks2:hover::after {
     width: 94%;
 }
@@ -147,7 +160,7 @@ nav {
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #9CA3AC;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -184,6 +197,10 @@ nav {
     color: #530BF5;
 }
 
+.navLinks3:focus {
+    color: #530BF5 !important;
+}
+
 .navLinks3:hover::after {
     width: 96%;
 }
@@ -198,9 +215,10 @@ nav {
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #9CA3AC;
+    color: #FFF;
     text-decoration: none;
 }
+
 
 .navLinks4::after {
     content: '';
@@ -234,6 +252,9 @@ nav {
 .navLinks4:hover {
     color: #F9DD4C;
 }
+.navLinks4:focus {
+    color: #F9DD4C !important;
+}
 
 .navLinks4:hover::after {
     width: 93%;
@@ -241,6 +262,21 @@ nav {
 
 .navLinks4:hover::before {
     height: 70%;
+}
+
+.dropdownmenu707 {
+    position: absolute;
+    width: 280px !important;
+    left: -150px !important;
+    margin-top: 15px !important;
+    background-color: transparent;
+}
+
+.a-drop-item {
+    font-family: Averta;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
 }
 
 
@@ -254,4 +290,31 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.h1-head {
+    font-family: life;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.h3-head {
+    font-family: kolkheti;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #FFF;
+    text-align: center;
+}
+
+.p-paragraph {
+    font-family: kolkheti;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    color: #FFF;
 }
