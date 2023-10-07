@@ -7,7 +7,31 @@ class App extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar />
+
+            <div className="w-100 bckgrnd">
+
+            <Navbar />
+
+            <div className="container pt-5">
+
+            <div className="row pt-5">
+
+            <div className="col-6">
+
+            <div className="w-100">
+
+            <h3></h3>
+
+            </div>
+
+            </div>
+
+            </div>
+
+            </div>
+
+            </div>
+
             </Fragment>
         )
     }
