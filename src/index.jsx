@@ -8,13 +8,15 @@ import peace from "./assets/pics/peace.png";
 class App extends Component {
     render() {
         return (
-        <div className="position-relative w-100">
+        <div className="w-100">
 
-            {/* <img className="position-absolute blureffect" src={Blurs} alt="blurs" /> */}
+            
 
             <Navbar />
 
-            <div className="container">
+            <div className="container position-relative">
+
+            <span className="position-absolute githubsky">Github</span>
 
             <div className="row">
 
@@ -29,13 +31,13 @@ class App extends Component {
                 </span>&nbsp;Front-end developer
             </p>
 
-            <p className="text-warning d-none d-md-block">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <p className="text-warning shadowdown d-none d-md-block">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
 
             <p className="p-comment">
-                // თქვენ შეგიძლიათ ნახოთ ჩემი გითჰაბის/Github გვერდი:
+                // თქვენ შეგიძლიათ ნახოთ ჩემი გითჰაბის/<span className="github">Github</span> გვერდი:
             </p>
             
-            <p><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light">=</span> <a className="gitlink" href="https://github.com/DeeFyB">"https://github.com/DeeFyB"</a></p>
+            <p className="getshadow"><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light sumshadow">=</span> <a className="gitlink" href="https://github.com/DeeFyB">"https://github.com/DeeFyB"</a></p>
 
             </div>
 

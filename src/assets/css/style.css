@@ -82,6 +82,27 @@ body {
     color: #fff;
 }
 
+.contact {
+    color: #607B96;
+    text-align: right;
+    font-family: Firacode;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.contact:hover {
+    color: #fff;
+    text-shadow: 0px 15px 2px rgba(77,91,206,0.6);
+}
+
+.borderdiv {
+    border-left: 1px solid #1E2D3D;
+}
+
 
 
 /* Content */
@@ -126,6 +147,10 @@ body {
     margin: 0;
 }
 
+.shadowdown {
+    text-shadow: 0px 7px 2px rgba(246,195,68,0.29);
+}
+
 .p-comment {
     color: #607B96;
     font-family: kolkheti;
@@ -143,6 +168,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-shadow: 1px 15px 3px rgba(81,117,172,0.71);
 }
 
 .letlink {
@@ -152,6 +178,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-shadow: 1px 15px 3px rgba(220,220,175,0.71);
 }
 
 .gitlink {
@@ -162,4 +189,65 @@ body {
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 1px 15px 3px rgba(191,139,117,0.71);
+}
+
+.gitlink:hover {
+    margin-left: 3px;
+    text-shadow: none;
+    -webkit-animation: gitlinkdrop 2s infinite;
+    animation: gitlinkdrop 2s infinite;
+    animation-timing-function:cubic-bezier(10, 0, 15, 0);
+}
+
+@keyframes gitlinkdrop {
+    0% {
+        color: #BF8B75;
+    }
+    100%{
+        color: transparent;
+    }
+}
+
+.sumshadow {
+    text-shadow: 1px 15px 3px rgba(255,255,255,0.71);
+}
+
+.githubsky {
+    color: #72D6AF;
+    font-family: kolkheti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    left: 35.9%;
+    top: 7.35%;
+}
+
+.github {
+    color: #607B96;
+    font-family: kolkheti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-top: 81px;
+    -webkit-animation: shadowgit 10s linear infinite;
+    animation: shadowgit 10s linear infinite;
+}
+
+@keyframes shadowgit {
+    0% {
+        text-shadow: 0px 0px 3px rgba(114,214,175,0.77);
+    }
+    50% {
+        text-shadow: 90px -401px 3px rgba(114,214,175,0.82);
+    }
+    99%{
+        text-shadow: none;
+    }
+    100% {
+        color: #72D6AF;
+    }
 }

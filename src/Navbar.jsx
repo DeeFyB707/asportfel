@@ -23,6 +23,9 @@ class Navbar extends React.Component {
                     </li>
                   </ul>
                 </div>
+                <div className="h-auto p-3 ps-4 pe-4 borderdiv">
+                <a className="contact" href="#">_contactMe</a>
+                </div>
               </div>
             </nav>
           </header>
