@@ -2,35 +2,50 @@ import React, {Component, Fragment} from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./Navbar";
 import "./assets/css/style.css";
+import Blurs from "./assets/pics/Background Blurs.png";
+import peace from "./assets/pics/peace.png";
 
 class App extends Component {
     render() {
         return (
-            <Fragment>
+        <div className="position-relative w-100">
 
-            <div className="w-100 bckgrnd">
+            {/* <img className="position-absolute blureffect" src={Blurs} alt="blurs" /> */}
 
             <Navbar />
 
-            <div className="container pt-5">
+            <div className="container">
 
-            <div className="row pt-5">
-                
-                <div className="col-12">
+            <div className="row">
 
-                <h1 className="h1-head">გამარჯობა მსოფლიო!</h1>
+            <div className="col-md-5 col-12 pt-5">
 
-                </div>
+            <div className="textbox">
 
-            <div className="col-6 mt-4">
+            <p className="p-hello">_Hello world. _I am</p>
+            <h2 className="h2-name">ავთანდილ საგინაშვილი</h2>
+            <p className="p-frontend"><span class="material-symbols-outlined">
+                chevron_right
+                </span>&nbsp;Front-end developer
+            </p>
+
+            <p className="text-warning d-none d-md-block">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+
+            <p className="p-comment">
+                // თქვენ შეგიძლიათ ნახოთ ჩემი გითჰაბის/Github გვერდი:
+            </p>
+            
+            <p><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light">=</span> <a className="gitlink" href="https://github.com/DeeFyB">"https://github.com/DeeFyB"</a></p>
+
+            </div>
+
+            </div>
+
+            <div className="col-md-7 col-12">
 
             <div className="w-100">
 
-            <h3 className="h3-head">ორიოდე სიტყვა ჩემს შესახებ!</h3>
-            <p className="p-paragraph">&nbsp;&nbsp;მოგესალმებით მე გახლავართ ავთანდილ საგინაშვილი, ვმუშაობ FrontEnd დეველოპერად მაქვს რამდენიმე
-                    ნამუშევარი რაც მინდა რომ გაგიზიაროთ. იმედია მოგეწონებათ და თხოვნა მექნება გამოხატოთ რეაქცია.<br />
-                    &nbsp;&nbsp;თუ გსურთ მეტი გაიგოთ ჩემს შესახებ გადადით <a href="#">"ჩემს შესახებ"</a> განყოფილებაში.
-                </p>
+            <img className="w-100" src={peace} alt="peace" />
 
             </div>
 
@@ -39,10 +54,7 @@ class App extends Component {
             </div>
 
             </div>
-
-            </div>
-
-            </Fragment>
+        </div>
         )
     }
 }
