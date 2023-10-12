@@ -1,22 +1,31 @@
 import React, {Component, Fragment} from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "./assets/css/style.css";
-import Blurs from "./assets/pics/Background Blurs.png";
-import peace from "./assets/pics/peace.png";
+import "./script.js";
+import SpeakerIcon from "./assets/pics/speakerIcon.svg";
+import peace from "./assets/pics/peace2.png";
+
+
 
 class App extends Component {
     render() {
         return (
-        <div className="w-100">
-
-            
+        <div className="w-100 main position-relative">
 
             <Navbar />
 
-            <div className="container position-relative">
+            <div className="container position-relative pb-5">
 
             <span className="position-absolute githubsky">Github</span>
+
+            <div className="position-absolute playMusic">
+            {/* <audio className="mp3" id="audio" src={Sound}></audio> */}
+                <button id="playPause" className="speakerbtn" type="button">
+                <img className="spkr" src={SpeakerIcon} alt="SpeakerIcon" />
+                </button>
+            </div>
 
             <div className="row">
 
@@ -56,6 +65,8 @@ class App extends Component {
             </div>
 
             </div>
+
+            <Footer />
         </div>
         )
     }

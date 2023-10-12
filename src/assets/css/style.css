@@ -8,10 +8,18 @@ body {
     background-color: #011627;
 }
 
-.blureffect {
-    z-index: -3;
-    right: 0px !important;
-    top: 0 !important;
+.main {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    border: 1px solid #000;
+    border-radius: 11px;
+    overflow: hidden !important;
 }
 
 @font-face {
@@ -250,4 +258,102 @@ body {
     100% {
         color: #72D6AF;
     }
+}
+
+.playMusic {
+    right: 0;
+    top: 12px;
+
+    -webkit-animation: play 10s linear infinite;
+    animation: play 10s linear infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+@keyframes play {
+    0% {
+        transform: scale(1.05);
+    }
+    50% {
+        top: 35px;
+    }
+    100% {
+        top: 12px;
+        transform: scale(1);
+    }
+}
+
+.speakerbtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 65px;
+    height: 65px;
+}
+
+.spkr {
+    width: 65px;
+    height: 65px;
+}
+
+
+
+/* Footer */
+
+
+
+.footborder {
+    border: 1px solid #1E2D3D;
+}
+
+.findMe {
+    color: #607B96;
+    font-family: Firacode;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.colborder {
+    border-right: 1px solid #1E2D3D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.colborder1 {
+    border-right: 1px solid #1E2D3D;
+}
+
+.social {
+    width: 26px;
+    height: 29px;
+}
+
+.deefyb {
+    color: #607B96;
+    font-family: Firacode;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin: 0;
+}
+
+.colborder707 {
+    border-left: 1px solid #1E2D3D;
+}
+
+.copyright {
+    color: #607B96;
+    font-family: kolkati;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
