@@ -2,7 +2,7 @@ import React from "react";
 import Facebook from "./assets/pics/facebook.svg";
 import Insta from "./assets/pics/instagram.svg";
 import Linkedin from "./assets/pics/linkedin.svg";
-import Discord from "./assets/pics/discord.svg";
+import {ReactComponent as Discord} from "./assets/pics/discord.svg";
 import Github from "./assets/pics/github.svg";
 
 
@@ -60,7 +60,7 @@ class Footer extends React.Component {
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
-                <a href="#"><img className="social" src={Discord} alt="Facebook" /></a>
+                <a href="#"><Discord className="social" /></a>
 
                 </div>
 

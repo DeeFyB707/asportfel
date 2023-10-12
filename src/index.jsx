@@ -6,10 +6,31 @@ import "./assets/css/style.css";
 import "./script.js";
 import SpeakerIcon from "./assets/pics/speakerIcon.svg";
 import peace from "./assets/pics/peace2.png";
+import Sound from "./assets/media/Worakls_Salzburg.mp3";
 
 
 
 class App extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+          isPlaying: false,
+          audio: new Audio(Sound), 
+        };
+      }
+    
+      // Function to play or pause the audio
+      togglePlay = () => {
+        const audio = this.state.audio;
+        if (this.state.isPlaying) {
+          audio.pause();
+        } else {
+          audio.play();
+        }
+        this.setState({ isPlaying: !this.state.isPlaying });
+      }
+
     render() {
         return (
         <div className="w-100 main position-relative">
@@ -21,8 +42,8 @@ class App extends Component {
             <span className="position-absolute githubsky">Github</span>
 
             <div className="position-absolute playMusic">
-            {/* <audio className="mp3" id="audio" src={Sound}></audio> */}
-                <button id="playPause" className="speakerbtn" type="button">
+                <audio className="mp3" id="audio" src={Sound}></audio>
+                <button onClick={this.togglePlay} className="speakerbtn" type="button">
                 <img className="spkr" src={SpeakerIcon} alt="SpeakerIcon" />
                 </button>
             </div>

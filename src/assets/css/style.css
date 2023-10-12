@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #011627;
+    overflow: hidden;
 }
 
 .main {
@@ -20,6 +21,7 @@ body {
     border: 1px solid #000;
     border-radius: 11px;
     overflow: hidden !important;
+    pointer-events: none;
 }
 
 @font-face {
@@ -330,6 +332,10 @@ body {
 .social {
     width: 26px;
     height: 29px;
+}
+
+.social g:nth-child(3) > path:nth-child(2) {
+    fill: #4D5BCE !important;
 }
 
 .deefyb {

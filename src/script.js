@@ -1,13 +1,13 @@
-// import Sound from "./assets/media/Worakls_Salzburg.mp3";
-// let audio = new Audio(Sound);
+
+// let audio = document.getElementById("audio");
 // let playPause = document.getElementById("playPause");
 
-// playPause.addEventListener("click", () =>{
+// playPause.onclick = () =>{
     
 //     if (audio.isPaused()) {
 //         audio.play();
 //     }else (audio.pause());
-// })
+// }
 
 
 
