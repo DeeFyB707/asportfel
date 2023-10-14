@@ -9,9 +9,12 @@ body {
     overflow: hidden;
 }
 
-.main {
-    height: 100vh;
-    overflow: hidden;
+footer {
+    height: 10vh;
+}
+
+header {
+    height: 10vh;
 }
 
 .circle {
@@ -110,7 +113,7 @@ body {
 }
 
 .borderdiv {
-    border-left: 1px solid #1E2D3D;
+    border-right: 1px solid #1E2D3D;
 }
 
 
@@ -335,7 +338,12 @@ body {
 }
 
 .social g:nth-child(3) > path:nth-child(2) {
-    fill: #4D5BCE !important;
+    fill: #061626 !important;
+    transition: 0.7s;
+}
+
+.social:hover g:nth-child(3) > path:nth-child(2) {
+    fill: #72D6AF !important;
 }
 
 .deefyb {
@@ -362,4 +370,17 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .borderdiv {
+        border: none;
+    }
+    .liborder {
+        border: none !important;
+    }
+    .liborder1 {
+        border: none !important;
+    }
 }

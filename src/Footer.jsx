@@ -10,13 +10,13 @@ import Github from "./assets/pics/github.svg";
 class Footer extends React.Component {
     render() {
         return (
-            <footer className="position-absolute bottom-0 w-100">
+            <footer className="w-100">
 
                 <div className="container-fluid footborder">
 
                 <div className="row">
 
-                <div className="col-1 colborder" >
+                <div className="col-md-1 col-12 colborder" >
 
                 <div className="w-100">
 
@@ -26,7 +26,7 @@ class Footer extends React.Component {
 
                 </div>
 
-                <div className="col-1 colborder1">
+                <div className="col-md-1 col-3 colborder1">
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
@@ -36,7 +36,7 @@ class Footer extends React.Component {
 
                 </div>
                 
-                <div className="col-1 colborder1">
+                <div className="col-md-1 col-3 colborder1">
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
@@ -46,7 +46,7 @@ class Footer extends React.Component {
 
                 </div>
 
-                <div className="col-1 colborder1">
+                <div className="col-md-1 col-3 colborder1">
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
@@ -56,7 +56,7 @@ class Footer extends React.Component {
 
                 </div>
 
-                <div className="col-1 colborder1">
+                <div className="col-md-1 col-3 colborder1">
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
@@ -66,7 +66,7 @@ class Footer extends React.Component {
 
                 </div>
 
-                <div className="col-6">
+                <div className="col-md-6 col-12">
 
                 <div className="w-100 h-100 d-flex align-items-end justify-content-center">
 
@@ -77,7 +77,7 @@ class Footer extends React.Component {
 
                 </div>
 
-                <div className="col-1 colborder707">
+                <div className="col-md-1 col-12 colborder707">
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 

@@ -33,10 +33,11 @@ class App extends Component {
 
     render() {
         return (
-        <div className="w-100 main position-relative">
+        <div className="w-100">
 
             <Navbar />
 
+            <div className="vh-80">
             <div className="container position-relative pb-5">
 
             <span className="position-absolute githubsky">Github</span>
@@ -66,7 +67,7 @@ class App extends Component {
             <p className="p-comment">
                 // თქვენ შეგიძლიათ ნახოთ ჩემი გითჰაბის/<span className="github">Github</span> გვერდი:
             </p>
-            
+
             <p className="getshadow"><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light sumshadow">=</span> <a className="gitlink" href="https://github.com/DeeFyB">"https://github.com/DeeFyB"</a></p>
 
             </div>
@@ -85,6 +86,7 @@ class App extends Component {
 
             </div>
 
+            </div>
             </div>
 
             <Footer />

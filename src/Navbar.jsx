@@ -21,11 +21,12 @@ class Navbar extends React.Component {
                     <li className="nav-item ms-auto liborder pt-2 pb-2 ps-4 pe-4 ">
                       <a href="#" className="nav-link navLinks">_projects</a>
                     </li>
+                    <div className="h-auto p-3 ps-4 pe-4 borderdiv ms-auto">
+                    <li className="nav-item ms-auto"><a className="contact" href="#">_contactMe</a></li>
+                    </div>
                   </ul>
                 </div>
-                <div className="h-auto p-3 ps-4 pe-4 borderdiv">
-                <a className="contact" href="#">_contactMe</a>
-                </div>
+
               </div>
             </nav>
           </header>

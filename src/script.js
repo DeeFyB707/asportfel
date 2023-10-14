@@ -1,16 +1,4 @@
 
-// let audio = document.getElementById("audio");
-// let playPause = document.getElementById("playPause");
-
-// playPause.onclick = () =>{
-    
-//     if (audio.isPaused()) {
-//         audio.play();
-//     }else (audio.pause());
-// }
-
-
-
 document.onmousemove = animateCircles;
 
 var colors = [ "#1F3C3A",  "#83D4B1",  "#F6C344", "#DCDCB4" ];
@@ -27,8 +15,8 @@ function animateCircles (event) {
 
     circle.style.transition = "all 0.5s linear 0s";
 
-    circle.style.left = circle.offsetLeft - 80 + "px";
-    circle.style.top = circle.offsetTop - 1 + "px";
+    circle.style.left = circle.offsetLeft - 20 + "px";
+    circle.style.top = circle.offsetTop - 20 + "px";
 
     circle.style.width = "50px";
     circle.style.height = "50px";
