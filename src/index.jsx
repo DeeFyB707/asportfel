@@ -7,6 +7,8 @@ import "./script.js";
 import SpeakerIcon from "./assets/pics/speakerIcon.svg";
 import peace from "./assets/pics/peace2.png";
 import Sound from "./assets/media/Worakls_Salzburg.mp3";
+import Gower from "./assets/pics/gower.jpg";
+import Arnold from "./assets/pics/arnold.jpg";
 
 
 
@@ -37,7 +39,7 @@ class App extends Component {
 
             <Navbar />
 
-            <div className="vh-80">
+            <div className="w-100">
             <div className="container position-relative pb-5">
 
             <span className="position-absolute githubsky">Github</span>
@@ -83,6 +85,36 @@ class App extends Component {
             </div>
 
             </div>
+
+            </div>
+
+            <div className="row mt-5">
+
+            <div className="col-1 d-none d-md-block"></div>
+
+            <div className="col-md-10 col-12">
+
+            <div className="w-100">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img className="w-100" src={Gower} class="d-block w-100" alt="Gower-code" />
+              </div>
+              <div className="carousel-item">
+                <img className="w-100" src={Arnold} class="d-block w-100" alt="Arnold-code" />
+              </div>
+              <div className="carousel-item">
+                <img src="..." class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+
+            </div>
+
+            </div>
+
+            <div className="col-1 d-none d-md-block"></div>
 
             </div>
 
