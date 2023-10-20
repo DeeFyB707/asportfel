@@ -6,9 +6,12 @@ import "./assets/css/style.css";
 import "./script.js";
 import SpeakerIcon from "./assets/pics/speakerIcon.svg";
 import peace from "./assets/pics/peace2.png";
-import Sound from "./assets/media/Worakls_Salzburg.mp3";
+import Sound from "./assets/media/Wanted.mp3";
 import Gower from "./assets/pics/gower.jpg";
 import Arnold from "./assets/pics/arnold.jpg";
+import Pexels from "./assets/pics/pexels.jpg";
+import Pexels2 from "./assets/pics/pexels2.jpg";
+import Fotis from "./assets/pics/fotis.jpg";
 
 
 
@@ -88,24 +91,34 @@ class App extends Component {
 
             </div>
 
-            <div className="row mt-5">
+            <hr className="hr-cent" />
+
+            <div className="row mt-5 pb-5 pt-5">
 
             <div className="col-1 d-none d-md-block"></div>
 
             <div className="col-md-10 col-12">
 
-            <div className="w-100">
+            <div className="w-100 neomorph">
 
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="w-100" src={Gower} class="d-block w-100" alt="Gower-code" />
+                <img className="w-100 karuseli" src={Gower} alt="Gower-code" />
               </div>
               <div className="carousel-item">
-                <img className="w-100" src={Arnold} class="d-block w-100" alt="Arnold-code" />
+                <img className="w-100 karuseli" src={Arnold} alt="Arnold-code" />
               </div>
               <div className="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
+                <img src={Pexels} className="w-100 karuseli" alt="Pexels" />
+              </div>
+
+              <div className="carousel-item">
+                <img src={Pexels2} className="w-100 karuseli" alt="Pexels" />
+              </div>
+
+              <div className="carousel-item">
+                <img src={Fotis} className="w-100 karuseli" alt="Pexels" />
               </div>
             </div>
           </div>
