@@ -295,8 +295,10 @@ body {
     font-style: normal;
     font-weight: 450;
     line-height: normal;
-    left: 35.9%;
+    left: 18%;
     top: 7.35%;
+    -webkit-animation: shadowgitpad 10s linear infinite;
+    animation: shadowgitpad 10s linear infinite;
 }
 
 .github {
@@ -307,38 +309,6 @@ body {
     font-weight: 450;
     line-height: normal;
     margin-top: 81px;
-    -webkit-animation: shadowgit 10s linear infinite;
-    animation: shadowgit 10s linear infinite;
-}
-
-@keyframes shadowgit {
-    0% {
-        text-shadow: 0px 0px 3px rgba(114,214,175,0.77);
-    }
-    50% {
-        text-shadow: 90px -335px 3px rgba(114,214,175,0.82);
-    }
-    99%{
-        text-shadow: none;
-    }
-    100% {
-        color: #72D6AF;
-    }
-}
-
-@keyframes shadowgitmobile {
-    0% {
-        text-shadow: 0px 0px 3px rgba(114,214,175,0.77);
-    }
-    50% {
-        text-shadow: -38px -321px 3px rgba(114,214,175,0.82);
-    }
-    99%{
-        text-shadow: none;
-    }
-    100% {
-        color: #72D6AF;
-    }
 }
 
 .playMusic {
@@ -455,6 +425,21 @@ body {
     height: 29px;
 }
 
+.social2 {
+    width: 26px;
+    height: 29px;
+}
+
+.social3 {
+    width: 26px;
+    height: 29px;
+}
+.social4 {
+    width: 26px;
+    height: 29px;
+    fill: #BF8B75;
+}
+
 .social g:nth-child(3) > path:nth-child(2) {
     fill: #061626 !important;
     transition: 0.7s;
@@ -462,6 +447,37 @@ body {
 
 .social:hover g:nth-child(3) > path:nth-child(2) {
     fill: #72D6AF !important;
+}
+
+.social2 g:nth-child(3) > circle:nth-child(2) {
+    fill: #061626 !important;
+    transition: 0.7s;
+}
+
+.social2:hover g:nth-child(3) > circle:nth-child(2) {
+    fill: #72D6AF !important;
+}
+.social2 g:nth-child(3) > circle:nth-child(3) {
+    fill: #061626 !important;
+    transition: 0.7s;
+}
+
+.social2:hover g:nth-child(3) > circle:nth-child(3) {
+    fill: #72D6AF !important;
+}
+
+.social3 g:nth-child(3) rect {
+    fill: #061626 !important;
+    transition: 0.7s;
+}
+
+.social3:hover g:nth-child(3) > rect {
+    fill: #72D6AF !important;
+}
+
+.social4 g:nth-child(3) rect:nth-child(2) {
+    fill: transparent !important;
+    transition: 0.7s;
 }
 
 .deefyb {
@@ -515,11 +531,7 @@ body {
 
     .githubsky {
         top: 115px;
-        left: 50px;
-    }
-    .github {
-        -webkit-animation: shadowgitmobile 10s linear infinite;
-        animation: shadowgitmobile 10s linear infinite;
+        left: 10px;
     }
     .neomorph {
         -webkit-animation: none;
@@ -531,5 +543,28 @@ body {
     .copyright {
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+}
+
+@keyframes shadowgitpad {
+    0% {
+        text-shadow: 0px 0px 26px rgba(114,214,175,1);
+    }
+    25% {
+        text-shadow: 0px 17px 2px rgba(114,214,175,1);
+    }
+    50% {
+        text-shadow: -50px 0px 2px rgba(114,214,175,1);
+        transform: rotate(-45deg);
+    }
+    75%{
+        text-shadow: 0px -17px 2px rgba(114,214,175,1);
+    }
+    90%{
+        text-shadow: 50px 0px 2px rgba(114,214,175,1);
+        transform: rotate(45deg);
+    }
+    100% {
+        text-shadow: 0px 17px 2px rgba(114,214,175,1);
     }
 }
