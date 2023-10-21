@@ -62,7 +62,7 @@ class App extends Component {
 
             <p className="p-hello">_Hello world. _I am</p>
             <h2 className="h2-name">ავთანდილ საგინაშვილი</h2>
-            <p className="p-frontend" id="move"><span class="material-symbols-outlined">
+            <p className="p-frontend"><span class="material-symbols-outlined">
                 chevron_right
                 </span>&nbsp;Front-end developer
             </p>
