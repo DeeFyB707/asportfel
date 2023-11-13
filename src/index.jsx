@@ -7,11 +7,9 @@ import "./script.js";
 import SpeakerIcon from "./assets/pics/speakerIcon.svg";
 import peace from "./assets/pics/peace2.png";
 import Sound from "./assets/media/Wanted.mp3";
-import Gower from "./assets/pics/gower.jpg";
-import Arnold from "./assets/pics/arnold.jpg";
-import Pexels from "./assets/pics/pexels.jpg";
-import Pexels2 from "./assets/pics/pexels2.jpg";
-import Fotis from "./assets/pics/fotis.jpg";
+import Carousel from "./Carousel.jsx";
+
+
 
 
 
@@ -35,6 +33,8 @@ class App extends Component {
         }
         this.setState({ isPlaying: !this.state.isPlaying });
       }
+      
+
 
     render() {
         return (
@@ -73,7 +73,7 @@ class App extends Component {
                 // თქვენ შეგიძლიათ ნახოთ ჩემი გითჰაბის/<span className="github">Github</span> გვერდი:
             </p>
 
-            <p className="getshadow"><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light sumshadow">=</span> <a className="gitlink" href="https://github.com/DeeFyB">"https://github.com/DeeFyB"</a></p>
+            <p className="getshadow"><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light sumshadow">=</span> <a className="gitlink" href="https://github.com/DeeFyB" target="_blank">"https://github.com/DeeFyB"</a></p>
 
             </div>
 
@@ -91,46 +91,19 @@ class App extends Component {
 
             </div>
 
+            </div>
+
             <hr className="hr-cent" />
+
+            <div className="container-fluid">
 
             <div className="row mt-5 pb-5 pt-5">
 
-            <div className="col-1 d-none d-md-block"></div>
-
-            <div className="col-md-10 col-12">
-
-            <div className="w-100 neomorph">
-
-            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img className="w-100 karuseli" src={Gower} alt="Gower-code" />
-              </div>
-              <div className="carousel-item">
-                <img className="w-100 karuseli" src={Arnold} alt="Arnold-code" />
-              </div>
-              <div className="carousel-item">
-                <img src={Pexels} className="w-100 karuseli" alt="Pexels" />
-              </div>
-
-              <div className="carousel-item">
-                <img src={Pexels2} className="w-100 karuseli" alt="Pexels" />
-              </div>
-
-              <div className="carousel-item">
-                <img src={Fotis} className="w-100 karuseli" alt="Pexels" />
-              </div>
-            </div>
-          </div>
-
+            <div className="col-12 p-0">
+              <Carousel />
             </div>
 
             </div>
-
-            <div className="col-1 d-none d-md-block"></div>
-
-            </div>
-
             </div>
             </div>
 

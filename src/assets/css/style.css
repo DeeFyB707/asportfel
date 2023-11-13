@@ -352,32 +352,43 @@ body {
 /* Carousel */ 
 
 .karuseli {
-    height: 715px !important;
+    height: 500px !important;
+    width: 423px !important;
 }
 
 .neomorph {
-    position: relative !important;
-    border-radius: 12px !important;
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out;
     background: #061626;
-    box-shadow: 0px 0px 41px 0px rgba(16,35,47,0.75);
-    -webkit-box-shadow: 0px 0px 41px 0px rgba(16,35,47,0.75);
-    -moz-box-shadow: 0px 0px 41px 0px rgba(16,35,47,0.75);
-    -webkit-animation: neo 7s alternate-reverse infinite;
-    animation: neo 7s alternate-reverse infinite;
+    gap: 20px;
 }
 
-.neomorph img {
-    border-radius: 12px;
+.neomorph::-webkit-scrollbar {
+    display: none;
 }
 
-@keyframes neo {
-    0% {
-        left: -10%;
-    }
-    100% {
-        left: 10%;
-        transition: 2s;
-    }
+.shadowDiv {
+    width: 100%;
+    height: 108px;
+    background-color: #011627;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 55%;
+    border-bottom-right-radius: 55%;
+}
+
+.shadowDiv2 {
+    width: 100%;
+    height: 110px;
+    background-color: #011627;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 55%;
 }
 
 .hr-cent {
