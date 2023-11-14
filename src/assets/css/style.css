@@ -351,15 +351,12 @@ body {
 
 /* Carousel */ 
 
-.karuseli {
-    height: 500px !important;
-    width: 423px !important;
-}
 
 .neomorph {
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
+    scroll-snap-type: Y mandatory;
     transition: 0.5s ease-in-out;
     background: #061626;
     gap: 20px;
@@ -367,6 +364,12 @@ body {
 
 .neomorph::-webkit-scrollbar {
     display: none;
+}
+
+.karuseli {
+    height: 500px !important;
+    width: 423px !important;
+    scroll-snap-align: center;
 }
 
 .shadowDiv {
