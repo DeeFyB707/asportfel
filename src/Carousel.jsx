@@ -32,6 +32,7 @@ import Fotis from "./assets/pics/fotis.jpg";
             return(
                 <div className="position-relative">
                     <div className="shadowDiv"></div>
+                    <div className="shadowDiv3"></div>
                 <div className="w-100 neomorph" ref={scrollContainerRef}>
 
     
@@ -44,6 +45,7 @@ import Fotis from "./assets/pics/fotis.jpg";
     
                 </div>
                     <div className="shadowDiv2"></div>
+                    <div className="shadowDiv4"></div>
                 </div>
             )
 
