@@ -177,6 +177,39 @@ body {
     border-right: 1px solid #1E2D3D;
 }
 
+.canvasbckg {
+    background-color: #011627;
+    margin-top: 61px;
+    width: 50%;
+}
+
+.canvastitle {
+    font-family: kolkheti;
+    font-weight: 600;
+    font-size: 20px;
+    color: #83a1be;
+}
+
+.tel {
+    color: #d0d0d0;
+    font-family: Firacode;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.closebutt {
+    box-shadow: 0px 0px 4px 0px rgba(114,214,175,0.76);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(114,214,175,0.76);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(114,214,175,0.76);
+}
+
+.closebutt:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 
 
 /* Content */
@@ -364,6 +397,10 @@ body {
 
 .neomorph::-webkit-scrollbar {
     display: none;
+}
+
+.shadowC {
+
 }
 
 .karuseli {

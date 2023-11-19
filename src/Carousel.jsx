@@ -30,7 +30,7 @@ import Fotis from "./assets/pics/fotis.jpg";
           
 
             return(
-                <div className="position-relative" style={{overflow: "hidden"}}>
+                <div className="position-relative shadowC ps-4 pe-4" style={{overflow: "hidden"}}>
                     <div className="shadowDiv"></div>
                     <div className="shadowDiv3"></div>
                 <div className="w-100 neomorph" ref={scrollContainerRef}>
