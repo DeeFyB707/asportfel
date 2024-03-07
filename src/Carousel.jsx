@@ -1,54 +1,75 @@
-import React, {useEffect, useRef} from "react";
-import Gower from "./assets/pics/gower.jpg";
-import Arnold from "./assets/pics/arnold.jpg";
-import Pexels from "./assets/pics/pexels.jpg";
-import Pexels2 from "./assets/pics/pexels2.jpg";
-import Fotis from "./assets/pics/fotis.jpg";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 
+import BlogPic from "./assets/pics/blog.png";
+import CoralPic from "./assets/pics/coral.png";
 
-    function Carousel() {
+function Carousel() {
+  const scrollContainerRef = useRef(null);
 
-        const scrollContainerRef = useRef();
+  useEffect(() => {
+    const scrollContainer = scrollContainerRef.current;
 
-        useEffect(() => {
-          const scrollContainer = scrollContainerRef.current;
-      
-          const handleWheel = (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-          };
-      
-          if (scrollContainer) {
-            scrollContainer.addEventListener('wheel', handleWheel);
-      
+    const handleWheel = (evt) => {
+      evt.preventDefault();
+      gsap.to(scrollContainer, {
+        duration: 2,
+        scrollLeft: "+=" + evt.deltaY,
+        ease: "back(25)",
+      });
+    };
 
-            return () => {
-              scrollContainer.removeEventListener('wheel', handleWheel);
-            };
-          }
-        }, [scrollContainerRef.current]);
-          
+    if (scrollContainer) {
+      scrollContainer.addEventListener("wheel", handleWheel);
 
-            return(
-                <div className="position-relative shadowC ps-4 pe-4" style={{overflow: "hidden"}}>
-                    <div className="shadowDiv"></div>
-                    <div className="shadowDiv3"></div>
-                <div className="w-100 neomorph" ref={scrollContainerRef}>
+      return () => {
+        scrollContainer.removeEventListener("wheel", handleWheel);
+      };
+    }
+  }, [scrollContainerRef.current]);
 
-    
-                    <img className="karuseli" src={Gower} alt="Gower-code" />
-                    <img className="karuseli" src={Arnold} alt="Arnold-code" />
-                    <img src={Pexels} className="karuseli" alt="Pexels" />
-                    <img src={Pexels2} className="karuseli" alt="Pexels" />
-                    <img src={Fotis} className="karuseli" alt="Pexels" />
-                
-    
-                </div>
-                    <div className="shadowDiv2"></div>
-                    <div className="shadowDiv4"></div>
-                </div>
-            )
-
-          };
+  return (
+    <div className="carouselDiv w-100">
+      <div className="container">
+        <div className="row pb-5">
+          <div className="col-3">
+            <div className="w-100" style={{ height: "500px" }}>
+              <h6 className="scrollTo">
+                _Scroll to <span style={{ color: "white" }}>-----</span>
+              </h6>
+            </div>
+          </div>
+          <div className="col-9">
+            <div
+              className="w-100 position-relative neomorph"
+              style={{ perspective: "2000px", height: "450px" }}
+            >
+              <div className="screen-1 position-absolute" ref={scrollContainerRef} style={{ overflow: "hidden" }}>
+                <a href="https://api-coral-task-wj7e.vercel.app/" target="_blank">
+                  <img
+                    className="w-100"
+                    src={CoralPic}
+                    alt="blogpic"
+                    style={{height: "120%" }}
+                  />
+                <a href="https://simulation-of-api-test.vercel.app/" target="_blank">
+                  <img
+                    className="w-100"
+                    src={BlogPic}
+                    alt="blogpic"
+                    style={{ height: "120%" }}
+                  />
+                </a>
+                </a>
+              </div>
+              <div className="screen-2 position-absolute"></div>
+              <div className="screen-3 position-absolute"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default Carousel;
