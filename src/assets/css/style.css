@@ -523,9 +523,9 @@ body {
     transform: translateZ(-100px);
     transform: rotateX(-40deg);
     transform: rotateY(-60deg);
-    box-shadow: 46px 37px 29px 0px rgba(93,198,236,0.34);
-    -webkit-box-shadow: 46px 37px 29px 0px rgba(93,198,236,0.34);
-    -moz-box-shadow: 46px 37px 29px 0px rgba(93,198,236,0.34);
+    box-shadow: 46px 37px 29px -13px rgba(93,198,236,0.34);
+    -webkit-box-shadow: 46px 37px 29px -13px rgba(93,198,236,0.34);
+    -moz-box-shadow: 46px 37px 29px -13px rgba(93,198,236,0.34);
 }
 
 .screen-2 {
@@ -539,9 +539,9 @@ body {
     transform: translateZ(-100px);
     transform: rotateX(-40deg);
     transform: rotateY(-60deg);
-    box-shadow: 46px 37px 29px 0px rgba(95,198,153,0.34);
-    -webkit-box-shadow: 46px 37px 29px 0px rgba(95,198,153,0.34);
-    -moz-box-shadow: 46px 37px 29px 0px rgba(95,198,153,0.34);
+    box-shadow: 46px 37px 29px -13px rgba(95,198,153,0.34);
+    -webkit-box-shadow: 46px 37px 29px -13px rgba(95,198,153,0.34);
+    -moz-box-shadow: 46px 37px 29px -13px rgba(95,198,153,0.34);
 }
 
 .screen-3 {
