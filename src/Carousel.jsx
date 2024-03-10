@@ -114,8 +114,8 @@ function Carousel() {
 
       gsap.to(scrollContainer, {
         duration: 2,
-        scrollLeft: "+=300", 
-        ease: "back(25)",
+        scrollLeft: "+=100%", 
+        // ease: "back(25)",
       });
     };
 
