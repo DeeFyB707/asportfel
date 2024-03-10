@@ -523,10 +523,9 @@ body {
     transform: translateZ(-100px);
     transform: rotateX(-40deg);
     transform: rotateY(-60deg);
-    filter: drop-shadow(17px 5px 5px #000);
-    box-shadow: 35px 8px 19px 5px rgba(6,22,38,0.2);
-    -webkit-box-shadow: 35px 8px 19px 5px rgba(6,22,38,0.2);
-    -moz-box-shadow: 35px 8px 19px 5px rgba(6,22,38,0.2);
+    box-shadow: 46px 37px 29px 0px rgba(93,198,236,0.34);
+    -webkit-box-shadow: 46px 37px 29px 0px rgba(93,198,236,0.34);
+    -moz-box-shadow: 46px 37px 29px 0px rgba(93,198,236,0.34);
 }
 
 .screen-2 {
@@ -540,10 +539,9 @@ body {
     transform: translateZ(-100px);
     transform: rotateX(-40deg);
     transform: rotateY(-60deg);
-    filter: drop-shadow(17px 5px 5px #000);
-    box-shadow: 35px 8px 19px 5px rgba(6,22,38,0.2);
-    -webkit-box-shadow: 35px 8px 19px 5px rgba(6,22,38,0.2);
-    -moz-box-shadow: 35px 8px 19px 5px rgba(6,22,38,0.2);
+    box-shadow: 46px 37px 29px 0px rgba(95,198,153,0.34);
+    -webkit-box-shadow: 46px 37px 29px 0px rgba(95,198,153,0.34);
+    -moz-box-shadow: 46px 37px 29px 0px rgba(95,198,153,0.34);
 }
 
 .screen-3 {

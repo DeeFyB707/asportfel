@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 
 import BlogPic from "./assets/pics/blog.png";
 import CoralPic from "./assets/pics/coral.png";
+import Hounter from "./assets/pics/Hounter.png";
 
 function Carousel() {
   const scrollContainerRef = useRef(null);
@@ -15,7 +16,7 @@ function Carousel() {
       gsap.to(scrollContainer, {
         duration: 2,
         scrollLeft: "+=" + evt.deltaY,
-        ease: "back(25)",
+        ease: "back(20)",
       });
     };
 
@@ -52,6 +53,7 @@ function Carousel() {
                     alt="blogpic"
                     style={{height: "120%" }}
                   />
+                  </a>
                 <a href="https://simulation-of-api-test.vercel.app/" target="_blank">
                   <img
                     className="w-100"
@@ -60,6 +62,13 @@ function Carousel() {
                     style={{ height: "120%" }}
                   />
                 </a>
+                <a href="https://hounter-nine.vercel.app/" target="_blank">
+                  <img
+                    className="w-100"
+                    src={Hounter}
+                    alt="Hounter"
+                    style={{ height: "120%" }}
+                  />
                 </a>
               </div>
               <div className="screen-2 position-absolute"></div>
