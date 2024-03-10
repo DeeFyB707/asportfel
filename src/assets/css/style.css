@@ -535,7 +535,7 @@ body {
     left: 45px;
     top: 45px;
     z-index: -1;
-    background-color: #e0e0e09d;
+    background-color: #5dc6ec92;
     border-radius: 13px;
     transform: translateZ(-100px);
     transform: rotateX(-40deg);
@@ -552,7 +552,7 @@ body {
     left: 90px;
     top: 90px;
     z-index: -2;
-    background-color: #e0e0e09d;
+    background-color: #5fc69991;
     border-radius: 13px;
     transform: translateZ(-100px);
     transform: rotateX(-40deg);
