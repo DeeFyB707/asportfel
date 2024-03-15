@@ -57,12 +57,12 @@ class App extends Component {
 
             <div className="row">
 
-            <div className="col-md-5 col-12 pt-5">
+            <div className="col-md-5 col-12 pt-3">
 
             <div className="textbox">
 
             <p className="p-hello">_Hello world. _I am</p>
-            <h2 className="h2-name">ავთანდილ საგინაშვილი</h2>
+            <h2 className="h2-name">ავთანდილ საგინაშვილი<br />Avtandil Saginashvili</h2>
             <p className="p-frontend"><span class="material-symbols-outlined">
                 chevron_right
                 </span>&nbsp;Front-end developer
