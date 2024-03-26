@@ -38,12 +38,12 @@ class Navbar extends React.Component {
 
               </div>
             </nav>
-            <div class="offcanvas offcanvas-top canvasbckg" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title canvastitle" id="offcanvasExampleLabel">// იხილეთ საკონტაქტო ინფორმაცია</h5>
-              <button type="button" class="btn-close closebutt" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div className="offcanvas offcanvas-top canvasbckg" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title canvastitle" id="offcanvasExampleLabel">// იხილეთ საკონტაქტო ინფორმაცია</h5>
+              <button type="button" className="btn-close closebutt" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div className="offcanvas-body">
               <div className="w-100 pt-4">
                 <p className="tel">_tel: +995551574747 | +995514707997</p>
                 <p className="tel">_viber | whatsup: +995514707997</p>
@@ -51,12 +51,12 @@ class Navbar extends React.Component {
               </div>
             </div>
           </div>
-          <div class="offcanvas offcanvas-top canvasbckg2" tabindex="-2" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title canvastitle" id="offcanvasExampleLabel">// ჩემს შესახებ</h5>
-              <button type="button" class="btn-close closebutt" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div className="offcanvas offcanvas-top canvasbckg2" tabIndex="-2" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title canvastitle" id="offcanvasExampleLabel">// ჩემს შესახებ</h5>
+              <button type="button" className="btn-close closebutt" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div className="offcanvas-body">
               <div className="w-100 pt-4">
                 <p className="tel">_hello World!/გამარჯობა მე ვარ ავთანდილ საგინაშვილი <b className="frontB">"Front-End Developer"</b>, მოხარული ვარ თქვენი გაცნობით.<br />
                 უკვე წელიწადზე მეტია რაც შემოვდგი ფეხი ამ სფეროში, ეს იყო ალბათ ჩემთვის ერთ-ერთი საუკეთესო გადაწყვეტილება ჩემს ცხოვრებაში, მინდა გაგიზიაროთ ჩემი გზა: თავიდან დავიწყე სწავლა "HTML"-ით და რომ ვისწავლე მეგონა უკვე შემდგარი დეველოპერი ვიყავი (რა თქმა უნდა ვხუმრობ 😁), შემდეგ დავიწყე "CSS"-ის სწავლა და მივხვდი რომ შემდეგ საფეხურზე ავიყვანე ეს საქმე შემდეგი იყო "Bootstrap", რომელსაც ცოტა უცნაურად შევხვდი, თუმცა მაინც დავძლიე და ალბათ საუკეთესო ხელსაწყოა CSS-სთან მუშაობისთვის და აი ისიც მისი უდიდებულესობა "JavaScript", JS არის პროგრამირების ენა, რომელთანაც შეხებისთანავე მივხვდი რომ სულ სხვა ადგილას მოვხვდი, იყო ბევრი ჩავარდნა თუმცა არ ვუშინდები გამოწვევებს და მაინც დავძლიე და ბოლოს ჩემთვის ყველაზე საყვარელი _FrameWork "React JS", რომელმაც შემაყვარა ჯავასკრიპტი. მოკლედ გადმოვეცი ჩემი განვლილი გზა ვებ დეველოპერობამდე, ძალიან ბევრი ჩავარდნები მქონდა, მქონდა ჩემთავთან ბრძოლა, რომ მე ვერ შევძლებდი, თუმცა გავიმარჯვე და გავედი ბოლომდე. არ ვაპირებ გაჩერებას და მივიწევ წინ! შემდეგი მიზანი "Back-End" არის! </p>

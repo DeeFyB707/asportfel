@@ -71,7 +71,7 @@ class Footer extends React.Component {
 
                 <div className="w-100 h-100 d-flex align-items-end justify-content-center">
 
-                <p className="copyright"><span class="material-symbols-outlined">copyright</span>- ავთანდილ საგინაშვილი
+                <p className="copyright"><span className="material-symbols-outlined">copyright</span>- ავთანდილ საგინაშვილი
                 </p>
 
                 </div>

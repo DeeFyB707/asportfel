@@ -63,7 +63,7 @@ class App extends Component {
 
             <p className="p-hello">_Hello world. _I am</p>
             <h2 className="h2-name">ავთანდილ საგინაშვილი<br />Avtandil Saginashvili</h2>
-            <p className="p-frontend"><span class="material-symbols-outlined">
+            <p className="p-frontend"><span className="material-symbols-outlined">
                 chevron_right
                 </span>&nbsp;Front-end developer
             </p>
@@ -98,7 +98,7 @@ class App extends Component {
 
             <div className="container-fluid">
 
-            <div className="row mt-5 pb-5 pt-5">
+            <div className="row mt-5 pt-5">
 
             <div className="col-12 p-0">
               <Carousel />
