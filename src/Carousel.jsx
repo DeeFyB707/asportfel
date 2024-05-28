@@ -16,7 +16,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 function Carousel() {
-  const scrollContainerRef = useRef();
+  const scrollContainerRef = useRef(null);
+
+
 
   useEffect(() => {
     const handleWheel = (evt) => {
