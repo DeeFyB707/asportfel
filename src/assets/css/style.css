@@ -243,21 +243,33 @@ body {
     color: #72D6AF;
     text-align: center;
     margin-top: 20px;
-    -webkit-animation: textanim 10s linear infinite;
-    animation: textanim 10s linear infinite;
 }
 
-@keyframes textanim {
-    0% {
-        color: #72D6AF;
-    }
-    100% {
-        color: transparent;
-    }
+.ml3 {
+    font-weight: 900;
+    font-size: 2.5em;
 }
 
 .importantText {
     color: #BF8B75;
+}
+
+.box-Aos {
+    width: 60px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: #BF8B75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aos {
+    margin: 0;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #061626;
 }
 
 
@@ -371,18 +383,25 @@ body {
     text-shadow: 1px 15px 3px rgba(255,255,255,0.71);
 }
 
-.githubsky {
-    color: #72D6AF;
-    font-family: kolkheti;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 450;
-    line-height: normal;
-    left: 18%;
-    top: 7.35%;
-    -webkit-animation: shadowgitpad 10s linear infinite;
-    animation: shadowgitpad 10s linear infinite;
+.nothing-happens {
+    font-family: firacode;
+    color: #72d6b0e7;
 }
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 1.8em;
+  }
+  
+  .ml4 .letters {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+.nothing-happens {
+    visibility: visible; /* Optional: to hide elements initially */
+  }
 
 .github {
     color: #607B96;
@@ -436,152 +455,75 @@ body {
 /* Carousel */ 
 
 
-.neomorph {
-    height: 100%;
-    display: flex;
-    overflow-x: scroll;
-    overflow: visible;
-    white-space: nowrap;
-    scroll-snap-type: Y mandatory;
-    transition: 0.5s ease-in-out;
-    background: #061626;
-    gap: 20px;
-    border-radius: 5px;
+.card-box {
+    border: 1px solid #232F3E;
+    border-radius: 2px;
+    height: 232px;
+    background-color: #ffffff02;
 }
 
-.neomorph::-webkit-scrollbar {
-    display: none;
+.visit {
+    top: -15px;
+    left: 40%;
+    text-decoration: none !important;
+    color: #BF8B75;
+    opacity: 0;
 }
 
-.karuseli {
-    height: 500px !important;
-    width: 423px !important;
-    scroll-snap-align: center;
-}
-
-.shadowDiv {
-    width: 500px;
-    height: 50px;
-    background-color: #011627;
-    position: absolute;
-    top: -35px;
-    left: -5px;
-    transform: rotate(-4deg);
-}
-
-.shadowDiv2 {
-    width: 500px;
-    height: 50px;
-    background-color: #011627;
-    position: absolute;
-    bottom: -35px;
-    left: -5px;
-    transform: rotate(4deg);
-}
-
-.shadowDiv3 {
-    width: 500px;
-    height: 50px;
-    background-color: #011627;
-    position: absolute;
-    top: -35px;
-    right: -5px;
-    transform: rotate(4deg);
-}
-
-.shadowDiv4 {
-    width: 500px;
-    height: 50px;
-    background-color: #011627;
-    position: absolute;
-    bottom: -35px;
-    right: -5px;
-    transform: rotate(-4deg);
-}
-
-.hr-cent {
-    width: 100%;
-    height: 2px;
-    border-radius: 12px;
-    background-color: rgb(37,77,78);
-}
-
-.scrollTo {
-    font-family: Firacode;
-    font-weight: 900;
-    letter-spacing: -0.5px;
-    font-size: 16px;
-    color: #DCDCAF;
-    margin-top: 48px;
-}
-
-.backgrImg {
-    background-image: url("../pics/markus-spiske.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
+.ml7 {
     position: relative;
-    perspective: 1000px;
+    font-weight: 700;
+    font-size: 31px;
+    font-family: firacode;
+    letter-spacing: 2.5px;
+    color: #83a1be;
+    margin: 0;
+    margin-top: 36px;
+    text-align: center;
+}
+.ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
     overflow: hidden;
 }
-
-.tablet {
-    position: absolute;
-    bottom: 20%;
-    right: 50px;
-    width: 530px;
-    height: 400px;
-    background-color: #0A1216;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    padding-bottom: 30px;
-    box-shadow: 0px 0px 27px 9px rgba(0,0,0,0.77);
-    -webkit-box-shadow: 0px 0px 27px 9px rgba(0,0,0,0.77);
-    -moz-box-shadow: 0px 0px 27px 9px rgba(0,0,0,0.77);
-    transform: rotate3d(0, -15, 0, 7deg) !important;
+.ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
 }
 
-.tablet::before {
-    content: '';
-    position: absolute;
-}
-
-.tabletBorder {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-
-.tabletScreen {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    border-radius: 5px;
-}
-
-.screen-1 {
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-}
-
-.wifi {
-    width: 12px;
-    height: 12px;
-}
-
-.battery {
-    width: 12px;
-    height: 13px;
-}
-
-.tabletAccses {
+.description-project {
+    font-family: firacode;
+    font-weight: 500;
+    font-size: 12px;
+    color: #d0d0d05d;
+    text-align: center;
+    white-space: unset;
     margin: 0;
-    text-align: end;
-    font-size: 9px;
+    margin-top: 22px;
+    transition: 0.9s;
+}
+
+.card-box:hover .visit {
+    opacity: 1;
+    top: 1px;
+    transition-duration: 1s !important;
+}
+
+.card-box:hover .description-project {
+    color: #d0d0d0;
+}
+
+.projects {
+    font-family: firacode;
+    font-weight: 700;
+    font-size: 29px;
+    color: #5175AC;
+    margin: 0;
+    margin-bottom: 36px;
 }
 
 

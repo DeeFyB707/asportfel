@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from "react";
+import React, {Component} from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -7,7 +7,8 @@ import "./script.js";
 import SpeakerIcon from "./assets/pics/speakerIcon.svg";
 import peace from "./assets/pics/peace2.png";
 import Sound from "./assets/media/Wanted.mp3";
-import Carousel from "./Carousel.jsx";
+import Nothing from "./Nothing.jsx";
+import Projects from "./Projects.jsx";
 
 
 
@@ -39,14 +40,14 @@ class App extends Component {
 
     render() {
         return (
-        <div className="w-100">
+        <div className="w-100" style={{overflow: "hidden"}}>
 
             <Navbar />
 
             <div className="w-100">
             <div className="container position-relative pb-5">
 
-            <span className="position-absolute githubsky">Github</span>
+              <Nothing />
 
             <div className="position-absolute playMusic">
                 <audio className="mp3" id="audio" src={Sound}></audio>
@@ -94,18 +95,10 @@ class App extends Component {
 
             </div>
 
-            <hr className="hr-cent" />
+            <hr className="hr-cent mb-5" />
 
-            <div className="container-fluid">
+            <Projects />
 
-            <div className="row mt-5 pt-5">
-
-            <div className="col-12 p-0">
-              <Carousel />
-            </div>
-
-            </div>
-            </div>
             </div>
 
             <Footer />
