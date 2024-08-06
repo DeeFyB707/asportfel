@@ -75,7 +75,7 @@ class App extends Component {
                 // თქვენ შეგიძლიათ ნახოთ ჩემი გითჰაბის/<span className="github">Github</span> გვერდი:
             </p>
 
-            <p className="getshadow"><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light sumshadow">=</span> <a className="gitlink" href="https://github.com/DeeFyB" target="_blank">"https://github.com/DeeFyB"</a></p>
+            <p className="getshadow"><span className="let">let</span> <span className="letlink">Link</span> <span className="text-light sumshadow">=</span> <a className="gitlink" href="https://github.com/DeeFyB707" target="_blank">"https://github.com/DeeFyB707"</a></p>
 
             </div>
 

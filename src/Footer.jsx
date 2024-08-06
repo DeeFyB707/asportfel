@@ -31,7 +31,7 @@ class Footer extends React.Component {
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
-                <a href="#"><Face className="social" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100013742685009" target="_blank"><Face className="social" /></a>
 
                 </div>
 
@@ -41,7 +41,7 @@ class Footer extends React.Component {
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
-                <a href="#"><Instagram className="social2" /></a>
+                <a href="https://www.instagram.com/saginashvili_avto/" target="_blank"><Instagram className="social2" /></a>
 
                 </div>
 
@@ -51,7 +51,7 @@ class Footer extends React.Component {
 
                 <div className="w-100 h-100 d-flex align-items-center justify-content-center">
 
-                <a href="#"><Linkedin className="social3" /></a>
+                <a href="https://www.linkedin.com/in/avtandil-saginashvili-1a90242a7/" target="_blank"><Linkedin className="social3" /></a>
 
                 </div>
 
